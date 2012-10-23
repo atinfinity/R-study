@@ -15,8 +15,7 @@ bubbleSort<-function(input){
   for (i in 1:length){
     j<-length
     while(j>i){
-      if(output[j-1]<output[j])
-      {
+      if(output[j-1]<output[j]){
         temp<-output[j-1]
         output[j-1]<-output[j]
         output[j]<-temp
